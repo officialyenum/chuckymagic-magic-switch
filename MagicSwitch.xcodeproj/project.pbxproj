@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF06F2E6241378E100C39F5C /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF06F2E4241378E100C39F5C /* win.wav */; };
+		EF06F2E7241378E100C39F5C /* game_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF06F2E5241378E100C39F5C /* game_bg.mp3 */; };
+		EF06F2E9241378EB00C39F5C /* game_over.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF06F2E8241378EB00C39F5C /* game_over.wav */; };
+		EFAB3E0F240A48DE000A8AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB3E0E240A48DE000A8AB0 /* AppDelegate.swift */; };
+		EFAB3E15240A48DF000A8AB0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB3E14240A48DF000A8AB0 /* GameScene.swift */; };
+		EFAB3E17240A48DF000A8AB0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB3E16240A48DF000A8AB0 /* GameViewController.swift */; };
+		EFAB3E1A240A48DF000A8AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAB3E18240A48DF000A8AB0 /* Main.storyboard */; };
+		EFAB3E1C240A48E0000A8AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAB3E1B240A48E0000A8AB0 /* Assets.xcassets */; };
+		EFAB3E1F240A48E0000A8AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAB3E1D240A48E0000A8AB0 /* LaunchScreen.storyboard */; };
+		EFAB3E2A240A48E0000A8AB0 /* MagicSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB3E29240A48E0000A8AB0 /* MagicSwitchTests.swift */; };
+		EFAB3E35240A48E0000A8AB0 /* MagicSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB3E34240A48E0000A8AB0 /* MagicSwitchUITests.swift */; };
+		EFAB3E47240A6619000A8AB0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB3E46240A6619000A8AB0 /* Settings.swift */; };
+		EFAB3E49240A800E000A8AB0 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB3E48240A800E000A8AB0 /* MenuScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAB3E26240A48E0000A8AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAB3E03240A48DE000A8AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAB3E0A240A48DE000A8AB0;
+			remoteInfo = MagicSwitch;
+		};
+		EFAB3E31240A48E0000A8AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAB3E03240A48DE000A8AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAB3E0A240A48DE000A8AB0;
+			remoteInfo = MagicSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF06F2E4241378E100C39F5C /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = ../../../../../../Music/win.wav; sourceTree = "<group>"; };
+		EF06F2E5241378E100C39F5C /* game_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = game_bg.mp3; path = ../../../../../../Music/game_bg.mp3; sourceTree = "<group>"; };
+		EF06F2E8241378EB00C39F5C /* game_over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = game_over.wav; path = ../../../../../../Music/game_over.wav; sourceTree = "<group>"; };
+		EFAB3E0B240A48DE000A8AB0 /* MagicSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAB3E0E240A48DE000A8AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAB3E14240A48DF000A8AB0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EFAB3E16240A48DF000A8AB0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EFAB3E19240A48DF000A8AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAB3E1B240A48E0000A8AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAB3E1E240A48E0000A8AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAB3E20240A48E0000A8AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAB3E25240A48E0000A8AB0 /* MagicSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAB3E29240A48E0000A8AB0 /* MagicSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSwitchTests.swift; sourceTree = "<group>"; };
+		EFAB3E2B240A48E0000A8AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAB3E30240A48E0000A8AB0 /* MagicSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAB3E34240A48E0000A8AB0 /* MagicSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSwitchUITests.swift; sourceTree = "<group>"; };
+		EFAB3E36240A48E0000A8AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAB3E46240A6619000A8AB0 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		EFAB3E48240A800E000A8AB0 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAB3E08240A48DE000A8AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB3E22240A48E0000A8AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB3E2D240A48E0000A8AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF06F2E32413788A00C39F5C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EF06F2E8241378EB00C39F5C /* game_over.wav */,
+				EF06F2E5241378E100C39F5C /* game_bg.mp3 */,
+				EF06F2E4241378E100C39F5C /* win.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		EFAB3E02240A48DE000A8AB0 = {
+			isa = PBXGroup;
+			children = (
+				EFAB3E0D240A48DE000A8AB0 /* MagicSwitch */,
+				EFAB3E28240A48E0000A8AB0 /* MagicSwitchTests */,
+				EFAB3E33240A48E0000A8AB0 /* MagicSwitchUITests */,
+				EFAB3E0C240A48DE000A8AB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAB3E0C240A48DE000A8AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB3E0B240A48DE000A8AB0 /* MagicSwitch.app */,
+				EFAB3E25240A48E0000A8AB0 /* MagicSwitchTests.xctest */,
+				EFAB3E30240A48E0000A8AB0 /* MagicSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAB3E0D240A48DE000A8AB0 /* MagicSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				EF06F2E32413788A00C39F5C /* Audio */,
+				EFAB3E20240A48E0000A8AB0 /* Info.plist */,
+				EFAB3E42240A5526000A8AB0 /* Template */,
+				EFAB3E45240A555D000A8AB0 /* Asset */,
+				EFAB3E44240A553F000A8AB0 /* ViewController */,
+				EFAB3E43240A5532000A8AB0 /* Scenes */,
+			);
+			path = MagicSwitch;
+			sourceTree = "<group>";
+		};
+		EFAB3E28240A48E0000A8AB0 /* MagicSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB3E29240A48E0000A8AB0 /* MagicSwitchTests.swift */,
+				EFAB3E2B240A48E0000A8AB0 /* Info.plist */,
+			);
+			path = MagicSwitchTests;
+			sourceTree = "<group>";
+		};
+		EFAB3E33240A48E0000A8AB0 /* MagicSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB3E34240A48E0000A8AB0 /* MagicSwitchUITests.swift */,
+				EFAB3E36240A48E0000A8AB0 /* Info.plist */,
+			);
+			path = MagicSwitchUITests;
+			sourceTree = "<group>";
+		};
+		EFAB3E42240A5526000A8AB0 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB3E0E240A48DE000A8AB0 /* AppDelegate.swift */,
+				EFAB3E46240A6619000A8AB0 /* Settings.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		EFAB3E43240A5532000A8AB0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB3E14240A48DF000A8AB0 /* GameScene.swift */,
+				EFAB3E48240A800E000A8AB0 /* MenuScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EFAB3E44240A553F000A8AB0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB3E16240A48DF000A8AB0 /* GameViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EFAB3E45240A555D000A8AB0 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB3E18240A48DF000A8AB0 /* Main.storyboard */,
+				EFAB3E1B240A48E0000A8AB0 /* Assets.xcassets */,
+				EFAB3E1D240A48E0000A8AB0 /* LaunchScreen.storyboard */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAB3E0A240A48DE000A8AB0 /* MagicSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAB3E39240A48E0000A8AB0 /* Build configuration list for PBXNativeTarget "MagicSwitch" */;
+			buildPhases = (
+				EFAB3E07240A48DE000A8AB0 /* Sources */,
+				EFAB3E08240A48DE000A8AB0 /* Frameworks */,
+				EFAB3E09240A48DE000A8AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicSwitch;
+			productName = MagicSwitch;
+			productReference = EFAB3E0B240A48DE000A8AB0 /* MagicSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAB3E24240A48E0000A8AB0 /* MagicSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAB3E3C240A48E0000A8AB0 /* Build configuration list for PBXNativeTarget "MagicSwitchTests" */;
+			buildPhases = (
+				EFAB3E21240A48E0000A8AB0 /* Sources */,
+				EFAB3E22240A48E0000A8AB0 /* Frameworks */,
+				EFAB3E23240A48E0000A8AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAB3E27240A48E0000A8AB0 /* PBXTargetDependency */,
+			);
+			name = MagicSwitchTests;
+			productName = MagicSwitchTests;
+			productReference = EFAB3E25240A48E0000A8AB0 /* MagicSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFAB3E2F240A48E0000A8AB0 /* MagicSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAB3E3F240A48E0000A8AB0 /* Build configuration list for PBXNativeTarget "MagicSwitchUITests" */;
+			buildPhases = (
+				EFAB3E2C240A48E0000A8AB0 /* Sources */,
+				EFAB3E2D240A48E0000A8AB0 /* Frameworks */,
+				EFAB3E2E240A48E0000A8AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAB3E32240A48E0000A8AB0 /* PBXTargetDependency */,
+			);
+			name = MagicSwitchUITests;
+			productName = MagicSwitchUITests;
+			productReference = EFAB3E30240A48E0000A8AB0 /* MagicSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAB3E03240A48DE000A8AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Chukwuyenum Opone";
+				TargetAttributes = {
+					EFAB3E0A240A48DE000A8AB0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EFAB3E24240A48E0000A8AB0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EFAB3E0A240A48DE000A8AB0;
+					};
+					EFAB3E2F240A48E0000A8AB0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EFAB3E0A240A48DE000A8AB0;
+					};
+				};
+			};
+			buildConfigurationList = EFAB3E06240A48DE000A8AB0 /* Build configuration list for PBXProject "MagicSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAB3E02240A48DE000A8AB0;
+			productRefGroup = EFAB3E0C240A48DE000A8AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAB3E0A240A48DE000A8AB0 /* MagicSwitch */,
+				EFAB3E24240A48E0000A8AB0 /* MagicSwitchTests */,
+				EFAB3E2F240A48E0000A8AB0 /* MagicSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAB3E09240A48DE000A8AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB3E1A240A48DF000A8AB0 /* Main.storyboard in Resources */,
+				EF06F2E6241378E100C39F5C /* win.wav in Resources */,
+				EF06F2E9241378EB00C39F5C /* game_over.wav in Resources */,
+				EFAB3E1C240A48E0000A8AB0 /* Assets.xcassets in Resources */,
+				EFAB3E1F240A48E0000A8AB0 /* LaunchScreen.storyboard in Resources */,
+				EF06F2E7241378E100C39F5C /* game_bg.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB3E23240A48E0000A8AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB3E2E240A48E0000A8AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAB3E07240A48DE000A8AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB3E15240A48DF000A8AB0 /* GameScene.swift in Sources */,
+				EFAB3E17240A48DF000A8AB0 /* GameViewController.swift in Sources */,
+				EFAB3E49240A800E000A8AB0 /* MenuScene.swift in Sources */,
+				EFAB3E47240A6619000A8AB0 /* Settings.swift in Sources */,
+				EFAB3E0F240A48DE000A8AB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB3E21240A48E0000A8AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB3E2A240A48E0000A8AB0 /* MagicSwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB3E2C240A48E0000A8AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB3E35240A48E0000A8AB0 /* MagicSwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAB3E27240A48E0000A8AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAB3E0A240A48DE000A8AB0 /* MagicSwitch */;
+			targetProxy = EFAB3E26240A48E0000A8AB0 /* PBXContainerItemProxy */;
+		};
+		EFAB3E32240A48E0000A8AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAB3E0A240A48DE000A8AB0 /* MagicSwitch */;
+			targetProxy = EFAB3E31240A48E0000A8AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAB3E18240A48DF000A8AB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAB3E19240A48DF000A8AB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAB3E1D240A48E0000A8AB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAB3E1E240A48E0000A8AB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAB3E37240A48E0000A8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAB3E38240A48E0000A8AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAB3E3A240A48E0000A8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFTX6929N3;
+				INFOPLIST_FILE = MagicSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuckymagic.MagicSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EFAB3E3B240A48E0000A8AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFTX6929N3;
+				INFOPLIST_FILE = MagicSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuckymagic.MagicSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EFAB3E3D240A48E0000A8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFTX6929N3;
+				INFOPLIST_FILE = MagicSwitchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuckymagic.MagicSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicSwitch.app/MagicSwitch";
+			};
+			name = Debug;
+		};
+		EFAB3E3E240A48E0000A8AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFTX6929N3;
+				INFOPLIST_FILE = MagicSwitchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuckymagic.MagicSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicSwitch.app/MagicSwitch";
+			};
+			name = Release;
+		};
+		EFAB3E40240A48E0000A8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFTX6929N3;
+				INFOPLIST_FILE = MagicSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuckymagic.MagicSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicSwitch;
+			};
+			name = Debug;
+		};
+		EFAB3E41240A48E0000A8AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFTX6929N3;
+				INFOPLIST_FILE = MagicSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuckymagic.MagicSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAB3E06240A48DE000A8AB0 /* Build configuration list for PBXProject "MagicSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB3E37240A48E0000A8AB0 /* Debug */,
+				EFAB3E38240A48E0000A8AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAB3E39240A48E0000A8AB0 /* Build configuration list for PBXNativeTarget "MagicSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB3E3A240A48E0000A8AB0 /* Debug */,
+				EFAB3E3B240A48E0000A8AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAB3E3C240A48E0000A8AB0 /* Build configuration list for PBXNativeTarget "MagicSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB3E3D240A48E0000A8AB0 /* Debug */,
+				EFAB3E3E240A48E0000A8AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAB3E3F240A48E0000A8AB0 /* Build configuration list for PBXNativeTarget "MagicSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB3E40240A48E0000A8AB0 /* Debug */,
+				EFAB3E41240A48E0000A8AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAB3E03240A48DE000A8AB0 /* Project object */;
+}
